@@ -1,3 +1,5 @@
+//LeetCode: https://leetcode.com/problems/longest-consecutive-sequence/
+
 import java.util.HashSet;
 
 public class LongestConsecutiveSubsequenceArray {
