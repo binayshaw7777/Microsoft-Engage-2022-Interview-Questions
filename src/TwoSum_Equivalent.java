@@ -1,3 +1,8 @@
+/* Refernce: https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+   Leetcode:https://leetcode.com/problems/two-sum/
+   InterviewBit: https://www.interviewbit.com/problems/2-sum/
+ */
+
 import java.util.HashSet;
 import java.util.Scanner;
 
