@@ -13,8 +13,18 @@ public class LPS {
         int[][] dp = new int[s.length()+1][t.length()+1];
         for (int[] row : dp)
             Arrays.fill(row, -1);
+        int lp = lps(s, t, s.length(), t.length(), dp);
 
-        System.out.println(lps(s, t, s.length(), t.length(), dp));
+        int i = 0, j = lp;
+        while (lp < s.length()-1) {
+            String st = s.substring(i, j);
+            if (st.equals(reverse(st))) {
+                System.out.println(st + " Length - "+ lp);
+                System.exit(0);
+            }
+            i++;
+            j++;
+        }
     }
 
     private static int lps(String s1, String s2, int l1, int l2, int[][] dp) {
