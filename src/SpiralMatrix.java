@@ -30,7 +30,7 @@ public class SpiralMatrix {
                     ans.add(A[i][Left]);
                 Left++;
             }
-            dir=(dir+1)%4;
+            dir=(dir+1)%4;  //dir will not exceed 3
         }
         return ans;
     }
