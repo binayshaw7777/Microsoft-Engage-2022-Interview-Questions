@@ -13,19 +13,19 @@ public class SpiralMatrix {
         int Left = 0, Right = A[0].length-1, dir = 0;
 
         while(Top<=Bottom && Left<=Right) {
-            if(dir==0) {
+            if(dir==0) {    //Left to Right
                 for(i=Left;i<=Right;i++)
                     ans.add(A[Top][i]);
                 Top++;
-            } else if(dir==1) {
+            } else if(dir==1) {     //Top to Bottom
                 for(i=Top;i<=Bottom;i++)
                     ans.add(A[i][Right]);
                 Right--;
-            } else if(dir==2) {
+            } else if(dir==2) {     //Right to Left
                 for(i=Right;i>=Left;i--)
                     ans.add(A[Bottom][i]);
                 Bottom--;
-            } else if(dir==3) {
+            } else if(dir==3) {     //Bottom to Top
                 for(i=Bottom;i>=Top;i--)
                     ans.add(A[i][Left]);
                 Left++;
