@@ -21,7 +21,8 @@ public class SymmetricTree {
         root.right.right = new TreeNode(3);
         root.right.left = new TreeNode(1);
 
-        System.out.print(isSymmetric(root, root));
+        if (root == null) System.out.println("true");
+        else System.out.print(isSymmetric(root, root));
 
         /*        5
          *      / | \
