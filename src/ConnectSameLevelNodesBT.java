@@ -1,5 +1,7 @@
 //Leetcode: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 
+//Does not works
+
 public class ConnectSameLevelNodesBT {
     static class TreeNode {
         int val;
