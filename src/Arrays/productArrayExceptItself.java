@@ -7,7 +7,21 @@ public class productArrayExceptItself {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4};
 
-        System.out.println(Arrays.toString(product(arr)));
+        System.out.println(Arrays.toString(divideMethod(arr))); //Not acceptable
+        System.out.println(Arrays.toString(product(arr)));  //Accepted
+    }
+
+    private static int[] divideMethod(int[] arr) {
+        int[] ans = Arrays.copyOf(arr, arr.length);
+        int prod = 1;
+        for (int i : arr)
+            prod *= i;
+
+        for (int i=0; i<ans.length; i++) {
+            ans[i] = prod/ans[i];
+        }
+
+        return ans;
     }
 
     private static int[] product(int[] arr) {
