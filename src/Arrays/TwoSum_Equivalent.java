@@ -18,8 +18,20 @@ public class TwoSum_Equivalent {
         }
         System.out.println("Enter the target: ");   //Target = summation of 2 elements in the array
         int target = sc.nextInt();  //Example: arr = [1,2,3,4,5], target = 9. return true because [4,5] = 9
-        System.out.println("\n"+twoSum(arr, target));
+//                                                                            TC        SC
+        System.out.println("\n"+twoSumNestedLoop(arr, target));    //         O(N^2)    O(1)
+        System.out.println(twoSum(arr, target));                   //         o(N)      O(N)
     }
+
+    private static boolean twoSumNestedLoop(int[] arr, int target) {
+        for (int i=0; i<arr.length; i++) {
+            for (int j=i+1; j<arr.length; j++) {
+                if (arr[i] + arr[j] == target) return true;
+            }
+        }
+        return false;
+    }
+
     public static boolean twoSum(int[] arr, int target) {
         HashSet<Integer> set = new HashSet<>();
         for (int i : arr) {     //Iterate using forLoop or forEachLoop
