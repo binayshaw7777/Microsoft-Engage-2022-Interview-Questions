@@ -37,6 +37,7 @@ public class QueueUsingStack {
         static int deQueue() {  // Dequeue an item from the queue
             if (s1.isEmpty()) { // if first stack is empty
                 System.out.println("Q is Empty");
+                return size-1;
             }
             size--;
             int x = s1.peek();  // Return top of s1
@@ -64,6 +65,7 @@ public class QueueUsingStack {
                 case 3-> System.out.println(q.top());
                 case 4-> System.out.println(q.size());
                 case 5-> System.exit(0);
+                default -> System.out.println("Wrong Input!");
             }
         }
     }
