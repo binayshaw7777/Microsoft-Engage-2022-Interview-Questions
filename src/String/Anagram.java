@@ -3,6 +3,8 @@ String.Anagram means the frequency of every character in both String must be equ
 Leetcode: https://leetcode.com/problems/valid-anagram/
  */
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Anagram {
@@ -12,11 +14,39 @@ public class Anagram {
         String a = sc.nextLine();
         System.out.println("Enter the second String: ");
         String b = sc.nextLine();
+//                                                                       TC          SC
+        System.out.println(sortIsAnagram(a, b));  //Brute Force       O(N LOG N)    O(N)
+        System.out.println(isAnagram(a, b));    //Optimized              O(N)       O(N)
+        System.out.println(setIsAnagram(a, b)); //Optimized              O(N)       O(N)
+    }
 
-        System.out.println(isAnagram(a, b));    //Print True/False
+    private static boolean setIsAnagram(String a, String b) {
+        if (a.length() != b.length()) return false;
+        HashSet<Character> set = new HashSet<>();
+        for (char c : a.toCharArray())
+            set.add(c);
+
+        for (char c : b.toCharArray()) {
+            if (!set.contains(c)) return false;
+        }
+        return true;
+    }
+
+    private static boolean sortIsAnagram(String a, String b) {
+        if (a.length() != b.length()) return false;
+        char[] ca = a.toCharArray();
+        char[] cb = b.toCharArray();
+        Arrays.sort(ca);
+        Arrays.sort(cb);
+
+        for (int i=0; i<ca.length; i++) {
+            if (ca[i] != cb[i]) return false;
+        }
+        return true;
     }
 
     public static boolean isAnagram(String a, String b) {
+        if (a.length() != b.length()) return false;
         int[] arr = new int[256];   //Create an array of 256 (ASCII)
 
         for (char c : a.toCharArray())
