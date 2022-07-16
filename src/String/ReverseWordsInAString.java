@@ -13,7 +13,7 @@ public class ReverseWordsInAString {
     }
 
     private static String reverseWord(String st) {
-        /** Does works on strings like "GAMING    IS MY   LIFE"   **/
+        /** Does not work on strings like "GAMING    IS MY   LIFE"   **/
 //        StringBuilder sb = new StringBuilder();
 //        String[] s = st.split("\\s");
 //        for (int i=s.length-1; i>=0; i--) {
