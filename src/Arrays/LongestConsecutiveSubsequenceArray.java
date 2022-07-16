@@ -14,8 +14,8 @@ public class LongestConsecutiveSubsequenceArray {
     }
 
     private static int lcsaSort(int[] nums) {
-        if (nums.length == 0) return 0;
-        if (nums.length == 1) return 1;
+        if (nums.length < 2) return nums.length; //edge case
+
         int max = 1;
         int c = 1;
         Arrays.sort(nums);
