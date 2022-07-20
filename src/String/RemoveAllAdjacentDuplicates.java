@@ -8,7 +8,7 @@ public class RemoveAllAdjacentDuplicates {
         int size = 3;
         System.out.println(removeDuplicates1(st, size)); //Doesn't works in all cases
         System.out.println(removeDuplicates2(st, size)); //Accepted
-        System.out.println(removeDuplicates3(st, size)); //Recursion (Works in Java) (TLE in C++) (Not tested in other languages)
+        System.out.println(removeDuplicates3(st, size)); //Recursion (TLE)
     }
     private static String removeDuplicates1(String st, int size) {
         Stack<Character> main = new Stack<>();
