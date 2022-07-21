@@ -8,6 +8,15 @@ This will surely gonna help you for Microsoft_Engage 2023 and future Interviews 
 
 [Interview experience sheet](https://docs.google.com/spreadsheets/d/1CiQtfe1d6kgGl220yjRGigrjFv3I4d6xtNH6wSmTJ6E/edit#gid=1548574968)
 
+## Contents <br>
+[**Arrays**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Arrays)<br>
+[**LinkedList**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/LinkedList)<br>
+[**Matrix/2D Arrays**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Matrix_2DArray)<br>
+[**Queue**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Queues)<br>
+[**Stack**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Stacks)<br>
+[**String**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/String)<br>
+[**Tree**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Tree)
+
 
 
 
