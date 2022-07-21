@@ -31,7 +31,6 @@ This will surely gonna help you for Microsoft_Engage 2023 and future Interviews 
 ## 🚀 About Me
 I'm a 3rd Year undergrad CSE Student. I'm an Android Developer (Java), currently learning Kotlin.
 I'm an Open Source Enthusiast.
-I like helping people and wanted to learn together.
 
 Come check out my - [Microsoft Engage 2022 Project](https://github.com/binayshaw7777/Microsoft-Engage-2022-PresIN)
 
