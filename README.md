@@ -7,7 +7,7 @@ This will surely gonna help you for Microsoft_Engage 2023 and future Interviews 
 ## 🍴 Fork this Repository and mark Star ⭐ ##
 
 [**Interview experience sheet**](https://docs.google.com/spreadsheets/d/1CiQtfe1d6kgGl220yjRGigrjFv3I4d6xtNH6wSmTJ6E/edit#gid=1548574968)<br>
-[**Non Technical Questions Asked**](https://docs.google.com/document/d/17D3QZph12s7LbwB30nOYEJ8dQJ18hX4QxhW5PSCx18s/edit?usp=sharing)
+[**Non Coding Questions Asked**](https://docs.google.com/document/d/17D3QZph12s7LbwB30nOYEJ8dQJ18hX4QxhW5PSCx18s/edit?usp=sharing)
 
 ## Contents <br>
 [**Arrays**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Arrays)<br>
