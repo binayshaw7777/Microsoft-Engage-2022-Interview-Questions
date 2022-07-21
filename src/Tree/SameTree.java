@@ -1,5 +1,6 @@
-package Tree;//LeetCode: https://leetcode.com/problems/same-tree/
-import java.util.*;
+//LeetCode: https://leetcode.com/problems/same-tree/
+
+package Tree;
 public class SameTree {
     static class TreeNode {
         int val;
