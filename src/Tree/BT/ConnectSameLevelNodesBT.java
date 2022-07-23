@@ -1,4 +1,4 @@
-package Tree.BST;//Leetcode: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+package Tree.BT;//Leetcode: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 
 //Does not works
 
@@ -10,7 +10,7 @@ public class ConnectSameLevelNodesBT {
         TreeNode next;
         TreeNode (int data) {
             this.val = data;
-            this.next = null;
+            this.next = this.left = this.right = null;
         }
     }
 
@@ -19,19 +19,12 @@ public class ConnectSameLevelNodesBT {
         root.left = new TreeNode(8);
         root.right = new TreeNode(2);
         root.left.left = new TreeNode(3);
+        root.left.right = new TreeNode(5);
+        root.right.left = new TreeNode(4);
+        root.right.right = new TreeNode(7);
 
-//        TreeNode node = connect(root);
-
-        printNode(root);
-        System.out.println();
-//        printNode(node);
-    }
-
-    private static void printNode(TreeNode root) {
-        if (root == null) return;
-        System.out.print(root.next.val);
-        printNode(root.left);
-        printNode(root.right);
+        TreeNode node = connect(root);
+        System.out.println(node.left.left.next.val);
     }
 
     public static TreeNode connect(TreeNode root) {
@@ -50,14 +43,14 @@ public class ConnectSameLevelNodesBT {
         return root;
     }
 
-//    private static void connect(TreeNode root) {
-//        if (root == null) return;
-//
-//        if (root.left != null) {
-//            root.left.next = root.right;
-//            if (root.next != null)  root.right.next = root.next.left;
-//        }
-//        connect(root.left);
-//        connect(root.right);
-//    }
+    private static void connect1(TreeNode root) {
+        if (root == null) return;
+
+        if (root.left != null) {
+            root.left.next = root.right;
+            if (root.next != null)  root.right.next = root.next.left;
+        }
+        connect(root.left);
+        connect(root.right);
+    }
 }
