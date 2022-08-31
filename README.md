@@ -4,6 +4,8 @@ This repository contains a list of coding questions and their Answers.
 Also, I've added the list of Behavoiral questions or followup questions.
 This will surely gonna help you for Microsoft_Engage 2023 and future Interviews and upcoming events.
 
+Checkout my complete unbiased experience blog of MS Engage: [Blog](https://binayshaw.hashnode.dev/microsoft-intern-engage-2022-honest-experience-unbiased)
+
 ## 🍴 Fork this Repository and mark Star ⭐ ##
 
 [**Interview experience sheet**](https://docs.google.com/spreadsheets/d/1CiQtfe1d6kgGl220yjRGigrjFv3I4d6xtNH6wSmTJ6E/edit#gid=1548574968)<br>
