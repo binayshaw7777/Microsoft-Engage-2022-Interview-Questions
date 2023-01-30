@@ -21,8 +21,10 @@ Checkout my complete unbiased experience blog of MS Engage: [Blog](https://binay
 [**Tree**](https://github.com/binayshaw7777/Microsoft-Engage-2022-Interview-Questions/tree/master/src/Tree)
 
 
-
-
+## Mentorship
+You can join this server or DM me on Discord for free mentorship. I would like to gain experience too as a student mentoring you guys.
+Ping me in the Server and ask questions if you have any.
+[Discord Link](https://discord.gg/nrn3YyyK)
 
 
 ## Author
