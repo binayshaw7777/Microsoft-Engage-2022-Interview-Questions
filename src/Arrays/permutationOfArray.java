@@ -7,7 +7,8 @@ public class permutationOfArray {
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 7};
         List<List<Integer>> list = permute(arr);
-        System.out.println(list);
+        for (List<Integer> l : list)
+            System.out.println(l);
     }
 
     public static List<List<Integer>> permute(int[] arr) {
@@ -20,9 +21,9 @@ public class permutationOfArray {
         if (tempList.size() == arr.length) {
             list.add(new ArrayList<>(tempList));
         } else {
-            for (int i = 0; i < arr.length; i++) {
-                if (!tempList.contains(arr[i])) {  // element already exists, skip
-                    tempList.add(arr[i]);
+            for (int i : arr) {
+                if (!tempList.contains(i)) {  // element already exists, skip
+                    tempList.add(i);
                     backtrack(list, tempList, arr);
                     tempList.remove(tempList.size() - 1);   //Backtrack / Recover list
                 }
