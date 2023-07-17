@@ -1,14 +1,11 @@
 //LeetCode: https://leetcode.com/problems/same-tree/
 
-package Tree;
+package Tree.BT;
+
+import Tree.TreeNode;
+
 public class SameTree {
-    static class TreeNode {
-        int val;
-        TreeNode left, right;
-        TreeNode(int data) {
-            this.val = data;
-        }
-    }
+
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(5);
         root1.left = new TreeNode(3);

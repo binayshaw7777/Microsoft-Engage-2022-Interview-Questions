@@ -1,16 +1,10 @@
 package Tree.BST;
 
+import Tree.TreeNode;
+
 //Reference: https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
 //Leetcode: https://leetcode.com/problems/validate-binary-search-tree/
 public class ValidBST {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(4);

@@ -1,15 +1,8 @@
 package Tree.BT;
 
+import Tree.TreeNode;
+
 public class LCA_BT {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode (int data) {
-            this.val = data;
-            this.left = this.right = null;
-        }
-    }
 
     public static void main(String[] args) {
         //3 5 1 6 2 0 8 7 4

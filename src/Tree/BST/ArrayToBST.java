@@ -1,23 +1,11 @@
 package Tree.BST;
 
+import Tree.TreeNode;
+
 public class ArrayToBST {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode (int data) {
-            this.val = data;
-            this.left = this.right = null;
-        }
-    }
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6};
-
-        if (arr.length == 0) {
-            printTree(null);
-            System.exit(0);
-        }
 
         TreeNode root = createTree(arr, 0, arr.length-1);
 

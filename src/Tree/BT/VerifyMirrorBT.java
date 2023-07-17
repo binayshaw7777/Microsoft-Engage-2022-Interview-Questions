@@ -1,14 +1,8 @@
 package Tree.BT;
 
+import Tree.TreeNode;
+
 public class VerifyMirrorBT {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(5);

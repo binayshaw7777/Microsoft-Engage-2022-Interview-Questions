@@ -1,16 +1,8 @@
 package Tree.BT;
 
-public class PrintLeafNodes_RightToLeft {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+import Tree.TreeNode;
 
-        TreeNode(int data) {
-            this.val = data;
-            this.left = this.right = null;
-        }
-    }
+public class PrintLeafNodes_RightToLeft {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);

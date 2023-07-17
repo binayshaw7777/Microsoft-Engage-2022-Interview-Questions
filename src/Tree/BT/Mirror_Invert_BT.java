@@ -1,16 +1,10 @@
 package Tree.BT;
 
+import Tree.TreeNode;
+
 //Invert a BT and print its preorder
 //Leetcode: https://leetcode.com/problems/invert-binary-tree/
 public class Mirror_Invert_BT {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);

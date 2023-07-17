@@ -1,14 +1,9 @@
 package Tree.BST;
 
+import Tree.TreeNode;
+
 public class LCA_BST {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode (int data) {
-            this.val = data;
-        }
-    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(6);
         root.left = new TreeNode(4);

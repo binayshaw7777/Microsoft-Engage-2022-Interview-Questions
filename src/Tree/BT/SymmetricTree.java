@@ -1,16 +1,9 @@
-package Tree;//GFG: https://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/
+package Tree.BT;//GFG: https://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/
 //Leetcode: https://leetcode.com/problems/symmetric-tree/
 
+import Tree.TreeNode;
+
 public class SymmetricTree {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode (int data) {
-            this.val = data;
-            this.left = this.right = null;
-        }
-    }
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(5);
