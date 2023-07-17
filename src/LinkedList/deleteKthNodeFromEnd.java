@@ -5,15 +5,6 @@ import java.util.Scanner;
 public class deleteKthNodeFromEnd {
     static ListNode head;
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int data) {
-            this.val = data;
-            this.next = null;
-        }
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -26,7 +17,7 @@ public class deleteKthNodeFromEnd {
         int n = sc.nextInt();
 
         removeLast(n);
-        System.out.println("");
+        System.out.println();
         printNode();
     }
 

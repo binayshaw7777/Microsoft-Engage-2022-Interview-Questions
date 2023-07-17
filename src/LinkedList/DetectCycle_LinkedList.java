@@ -1,13 +1,6 @@
 package LinkedList;
 
 public class DetectCycle_LinkedList {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode (int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);

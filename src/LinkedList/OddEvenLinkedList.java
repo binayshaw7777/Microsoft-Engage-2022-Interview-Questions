@@ -2,13 +2,6 @@ package LinkedList;//Leetcode: https://leetcode.com/problems/odd-even-linked-lis
 //GFG: https://www.geeksforgeeks.org/rearrange-a-linked-list-such-that-all-even-and-odd-positioned-nodes-are-together/
 
 public class OddEvenLinkedList {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode (int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);

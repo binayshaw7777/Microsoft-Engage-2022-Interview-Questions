@@ -2,14 +2,6 @@ package LinkedList;//Leetcode: https://leetcode.com/problems/swap-nodes-in-pairs
 //GFG: https://www.geeksforgeeks.org/pairwise-swap-elements-of-a-given-linked-list/
 
 public class SwapNodesInPairs {
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int data) {
-            this.val = data;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);

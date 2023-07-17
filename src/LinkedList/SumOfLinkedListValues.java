@@ -1,15 +1,6 @@
 package LinkedList;
 
 public class SumOfLinkedListValues {
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int data) {
-            this.val = data;
-            this.next = null;
-        }
-    }
 
     public static void main(String[] args) {
         /*      LinkedList 1: 1->2->3  SumL1 = 123

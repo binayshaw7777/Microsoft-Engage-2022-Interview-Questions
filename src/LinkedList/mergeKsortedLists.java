@@ -6,12 +6,6 @@ package LinkedList;
 import java.util.PriorityQueue;
 
 public class mergeKsortedLists {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int data) {this.val = data;}
-        ListNode() {}
-    }
 
     public static void main(String[] args) {
         ListNode head1 = new ListNode();

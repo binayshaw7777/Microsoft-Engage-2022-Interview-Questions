@@ -5,15 +5,6 @@ import java.util.Scanner;
 
 public class StackViaLinkedList {
     static int size = -1;
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode (int data) {
-            this.val = data;
-            size++;
-        }
-        ListNode () {}
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode();

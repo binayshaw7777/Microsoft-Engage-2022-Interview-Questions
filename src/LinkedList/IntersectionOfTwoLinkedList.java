@@ -1,14 +1,6 @@
 package LinkedList;//Leetcode: https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 public class IntersectionOfTwoLinkedList {
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int data) {
-            this.val = data;
-            this.next = null;
-        }
-    }
 
     public static void main(String[] args) {
         ListNode first = new ListNode(1);

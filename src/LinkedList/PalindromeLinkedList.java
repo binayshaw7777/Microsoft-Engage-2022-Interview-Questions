@@ -3,18 +3,6 @@ package LinkedList;//Leetcode: https://leetcode.com/problems/palindrome-linked-l
 import java.util.Stack;
 
 public class PalindromeLinkedList {
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int data) {
-            this.val = data;
-            this.next = null;
-        }
-
-        ListNode() {
-        }
-    }
 
     public static void main(String[] args) {
         ListNode head = new ListNode();

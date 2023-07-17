@@ -3,16 +3,6 @@ package LinkedList;//Leetcode: https://leetcode.com/problems/merge-two-sorted-li
 
 public class MergeSortedList {
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode (int data) {
-            this.val = data;
-            this.next = null;
-        }
-        ListNode () {}
-    }
-
     public static void main(String[] args) {
         ListNode head1 = new ListNode();
         push(head1, 1);
